@@ -1,6 +1,28 @@
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+#intro {
+	text-align: justify;
+	width: 90%;
+	min-width: 42em;
+	max-width: 1000px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#welcome {
+	text-align: right;
+	font-weight: bold;
+}
+
 p {
 	display: block;
 	font: 19px/1.5 sans-serif;
+	text-align: justify;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 a {
@@ -14,37 +36,25 @@ li {
 	margin: 0px 10px;
 }
 
-#container {
-	width: 80%;
-	margin: auto;
-}
-
-#intro {
-	text-align: justify;
-	width: 90%;
-	margin: auto;
-}
-
-#welcome {
-	text-align: right;
-	font-weight: bold;
-}
-
 .table {
+	margin: auto;
 	display: table;
 	width: 100%;
 }
 
 .table .row {
+	margin: auto;
 	display: table-row;
-	margin:auto;
 	white-space: nowrap;
 }
 
 .row div{
+	margin: auto;
 	padding: 5px;
 	width: 25%;
 	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
 }
 
 #footer {

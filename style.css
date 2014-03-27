@@ -1,0 +1,48 @@
+p {
+	display: block;
+	font: 19px/1.5 sans-serif;
+}
+
+a {
+	text-decoration: none;	
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+#intro {
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+}
+
+#welcome {
+	text-align: right;
+	font-weight: bold;
+}
+
+.table {
+	display: table;
+	width: 100%;
+}
+
+.table .row {
+	display: table-row;
+	margin:auto;
+	white-space: nowrap;
+}
+
+.row div{
+	padding: 5px;
+	width: 25%;
+	display: inline-block;
+}
+
+#footer {
+	margin: auto;
+	width: 70%;
+	border-top: solid #AAAAAA;
+	border-width: 1px;
+}
